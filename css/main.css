@@ -2,8 +2,6 @@
 // css variables
 // ==================================== */
 
-:root {
-}
 
 /* ====================================
 // reset rules
@@ -26,6 +24,8 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  text-align:center;
+  background: #f7f7f7;
 }
 
 a {
@@ -37,9 +37,10 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+  width: 100%
 }
 
-.row + .row {
+/* .row + .row {
   margin-top: 16px;
 }
 
@@ -49,4 +50,114 @@ video {
   padding-bottom: 12px;
   background-color: rgba(86, 61, 124, .15);
   border: 1px solid rgba(86, 61, 124, .2);
+} */
+
+h1.title {
+  color: #000;
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  background: white;
+}
+
+.first-subtitel-news h3.subtitel {
+  color: #000;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+h3.subtitel {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  padding: 0 10px 50px;
+}
+
+p.describtion {
+  color: #000;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;  
+  padding-bottom: 30px;
+}
+
+p.describtion stan {
+  color: #B3B3B3;
+}
+
+.article {
+  background:white;
+}
+
+h2.second-titel {
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 50px;
+  background: #EEE;
+  text-align: start;
+  padding-left: 20px;
+}
+
+.article img {
+  margin-bottom: 25px;
+}
+
+.article.news {
+  margin-bottom: 31px;
+}
+
+.article.info {
+  margin-bottom: 20px;
+  text-align: start;
+  padding-left: 20px;
+  padding-top: 25px;
+}
+
+.second-subtitel.first-subtitel-article {
+  color: #000;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.second-subtitel.first-subtitel-article stan {
+  color: #000;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.second-subtitel {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.second-subtitel stan {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.second-description {
+  color: #000;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.text {
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 30px;
 }
